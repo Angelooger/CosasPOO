@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Compra">
+  <ClassDiagramComponents>
+    <Class name="Compra" package="pruebatotal" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="subTotal" type="double" visibility="private"/>
+        <Field name="total" type="double" visibility="private"/>
+        <Field name="IVA" type="int" visibility="public" isStatic="true"/>
+        <Field name="sumaTotales" type="double" visibility="public" isStatic="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="double" name="subTotal"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getSubTotal" returnType="double" visibility="public"/>
+        <Method name="setSubTotal" returnType="void" visibility="public">
+          <Argument type="double" name="subTotal"/>
+        </Method>
+        <Method name="getTotal" returnType="double" visibility="public"/>
+        <Method name="setTotal" returnType="void" visibility="public">
+          <Argument type="double" name="total"/>
+        </Method>
+        <Method name="getIVA" returnType="int" visibility="public" isStatic="true"/>
+        <Method name="setIVA" returnType="void" visibility="public" isStatic="true">
+          <Argument type="int" name="IVA"/>
+        </Method>
+        <Method name="getSumaTotales" returnType="double" visibility="public" isStatic="true"/>
+        <Method name="setSumaTotales" returnType="void" visibility="public" isStatic="true">
+          <Argument type="double" name="sumaTotales"/>
+        </Method>
+        <Method name="sumaTotal" returnType="void" visibility="public" isStatic="true">
+          <Argument type="double" name="total"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
