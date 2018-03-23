@@ -10,5 +10,5 @@ package pruebaie;
  * @author Angel
  */
 public interface ImpactoEcologico {
-    
+    public abstract double ObtenerEmisionAnualDioxidoCarbono();
 }

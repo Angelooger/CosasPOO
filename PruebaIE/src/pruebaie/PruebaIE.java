@@ -16,6 +16,16 @@ public class PruebaIE {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        ImpactoEcologico [] arreglo=new ImpactoEcologico[3];
+        arreglo[0]=new Auto("Mazda","2012",13461,6);
+        arreglo[1]=new Bicicleta("Benotto","Tunder","16",12342);
+        arreglo[2]=new Edificio("Calle bonita",1256412);
+        
+        for(ImpactoEcologico x:arreglo){
+            System.out.print(x.toString());
+            System.out.printf("Emite %s kilogramos de Dioxido de carbono al año%n",x.ObtenerEmisionAnualDioxidoCarbono());
+        }
+        
     }
     
 }
