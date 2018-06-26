@@ -11,7 +11,7 @@ package pruebaie;
  */
 public class Bicicleta implements ImpactoEcologico{
     private String marca, modelo, rodada;
-    private double millasPorAnio;
+    private double millasPorDia;
     private static final double CALORIAS_GENERADAS_POR_MILLA=34;
 
     public String getMarca() {
@@ -39,27 +39,27 @@ public class Bicicleta implements ImpactoEcologico{
     }
 
     public double getMillasPorAnio() {
-        return millasPorAnio;
+        return millasPorDia;
     }
 
     public void setMillasPorAnio(double millasPorAnio) {
-        this.millasPorAnio = millasPorAnio;
+        this.millasPorDia = millasPorAnio;
     }
 
     public Bicicleta(String marca, String modelo, String rodada, double millasPorAnio) {
         this.marca = marca;
         this.modelo = modelo;
         this.rodada = rodada;
-        this.millasPorAnio = millasPorAnio;
+        this.millasPorDia = millasPorAnio;
     }
      
     
     @Override
     public double ObtenerEmisionAnualDioxidoCarbono() {
-        return this.millasPorAnio*Bicicleta.CALORIAS_GENERADAS_POR_MILLA/1000;
+        return this.millasPorDia*365*Bicicleta.CALORIAS_GENERADAS_POR_MILLA/1000;
     }
     @Override
     public String toString(){
-        return String.format("La bicicleta marca %s, modelo %s, rodada %s que recorrió %,.2f millas en un año %n",this.marca,this.modelo,this.rodada,this.millasPorAnio);
+        return String.format("La bicicleta marca %s, modelo %s, rodada %s que recorrió %,.2f millas en un año %n",this.marca,this.modelo,this.rodada,this.millasPorDia*365);
     }
 }

@@ -1,0 +1,3 @@
+Nombre               Apellido Paterno     Apellido Materno     Direccion            Articulos Generales  Articulos de Revista
+a                    a                    a                    a                    2                                        
+

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="PruebaProyecto1">
+  <ClassDiagramComponents>
+    <Class name="PruebaProyecto1" package="pruebaproyecto1" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="etiqueta1" type="JLabel" visibility="private"/>
+        <Field name="etiqueta2" type="JLabel" visibility="private"/>
+        <Field name="etiqueta3" type="JLabel" visibility="private"/>
+        <Field name="boton1" type="JButton" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+        <Method name="actionPerformed" returnType="void" visibility="public">
+          <Argument type="ActionEvent" name="e"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="VentanaPrincipal" package="pruebaproyecto1" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields>
+        <Field name="jButton1" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton2" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton3" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton4" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel3" type="javax.swing.JLabel" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="VentanaPrincipal2" package="pruebaproyecto1" visibility="public" xPosition="620.0" yPosition="20.0">
+      <Fields>
+        <Field name="etiqueta1" type="JLabel" visibility="private"/>
+        <Field name="etiqueta2" type="JLabel" visibility="private"/>
+        <Field name="etiqueta3" type="JLabel" visibility="private"/>
+        <Field name="boton1" type="JButton" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="actionPerformed" returnType="void" visibility="public">
+          <Argument type="ActionEvent" name="e"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
